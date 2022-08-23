@@ -1,0 +1,129 @@
+@font-face {
+    font-family:CinzelDecorative-Regular;
+    src: url(CinzelDecorative-Regular.ttf);
+}
+
+@font-face {
+    font-family:RubikDirt-Regular;
+    src: url(RubikDirt-Regular.ttf);
+}
+
+@font-face {
+    font-family: PTSansNarrow-Regular;
+    src: url(PTSansNarrow-Regular.ttf);
+}
+    
+body {
+    margin: 10px 20px; 
+    background-image: url("leaf.png");
+    background-size: cover;
+    height: 900px;
+    width: auto;
+    font-family: PTSansNarrow-Regular;
+        
+                
+}
+
+#main-content{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    }
+
+#church-name {
+    font-family: RubikDirt-Regular;
+    color: #31572c;
+    font-size: 50px;
+    opacity: 50%;
+    border-bottom: solid 3px;
+    margin: 10px auto;
+    padding: 5px 10px;
+    text-align: center; 
+    width: 600px;
+    height: 50px;
+      
+}
+
+#church-logo {
+    width: 200px;
+    height: 100px;
+    display: flex; 
+    text-align: center;
+    padding: 7px 10px;
+}
+
+h2 {
+    margin: 10px auto;
+    font-family: PTSansNarrow-Regular;
+    font-size: 18px;
+    width: 600px;
+    color: #132a13;
+    text-align: center;
+}
+
+.link {
+    color:black;
+}
+
+.activities {
+    display:flex;
+    align-content: center;
+    justify-content: space-around;
+    width: 900px;
+    color: #EFF1F2;
+    text-shadow: 2px 3px black;
+    
+   }
+
+#worship-logo {
+    margin: 50px 50px;
+    background-image: url(aaron-burden-unsplash-bible.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    width: 200px;
+    height: 100px; 
+    padding: 10px 20px;
+    border: solid #31572c 5px;
+    border-radius: 10px;
+}
+
+#outreach-logo {
+    margin: 50px 50px;
+    background-image: url(shane-rounce-unsplash-teamwork.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    width: 200px;
+    height: 100px; 
+    padding: 10px 20px;
+    border: solid #31572c 5px;
+    border-radius: 10px;
+}
+
+#online-logo {
+    margin: 50px 50px;
+    background-image: url(glenn-carstens-peters-unsplash-online.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    width: 200px;
+    height: 100px; 
+    padding: 10px 20px;
+    border: solid #31572c 5px;
+    border-radius: 10px;
+}
+
+#gallery-logo {
+    margin: 50px 50px;
+    background-image: url(hannah-busing-unsplash-gallery.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    width: 200px;
+    height: 100px; 
+    padding: 10px 20px;
+    border: solid #31572c 5px;
+    border-radius: 10px;
+}
